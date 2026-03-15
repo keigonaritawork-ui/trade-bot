@@ -218,3 +218,19 @@ bot.log
 # VSCode
 .vscode/
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Terraform CLI downloads
+infra/terraform/aws/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+bot.log
+
